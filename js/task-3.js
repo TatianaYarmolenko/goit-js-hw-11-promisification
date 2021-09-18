@@ -15,7 +15,9 @@ const randomIntegerFromInterval = (min, max) => {
       } else {
          reject(transaction.id);
       }
+
    }, delay);
+  })
  };
  
  const logSuccess = ({ id, time }) => {
